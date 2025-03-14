@@ -9,4 +9,3 @@ or sed -i '/cdrom/d' /etc/apt/sources.list
 4. `git clone https://github.com/Zintriz/debian12-dwm-config install`
 5. `./root-commands.sh`
 6. switch user to klanton
-7. 
