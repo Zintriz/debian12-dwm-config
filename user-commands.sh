@@ -1,21 +1,7 @@
 #!/bin/bash
-#deb12 install as root
-
-#remove cdrom from apt
-sed -i '/cdrom/d' /etc/apt/sources.list
-
-#update and upgrade
-sudo apt update && apt upgrade
-
-#sudo and user
-apt install sudo
-usermod -aG sudo klanton
-
-#exit and logon to klanton and run sudo -s aswell as cd
-#if openssh was installed, can connect via ssh
 
 # install 
-sudo apt install vim curl git unzip 7zip build-essential ripgrep gcc make libx11-dev libxft-dev libxinerama-dev xorg
+sudo apt install vim curl unzip 7zip build-essential ripgrep gcc make libx11-dev libxft-dev libxinerama-dev xorg
 #brew
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
