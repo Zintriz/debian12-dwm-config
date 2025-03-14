@@ -1,0 +1,12 @@
+Run these manuall commands first!
+
+
+1. `nano /etc/apt/sources.list` #remove first line with cdrom
+or sed -i '/cdrom/d' /etc/apt/sources.list
+
+2. `apt update && apt upgrade`
+3. `apt install git`
+4. `git clone https://github.com/Zintriz/debian12-dwm-config install`
+5. `./root-commands.sh`
+6. switch user to klanton
+7. 
